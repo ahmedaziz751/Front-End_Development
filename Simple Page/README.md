@@ -1,1 +1,0 @@
-# Front End web development course for internship
