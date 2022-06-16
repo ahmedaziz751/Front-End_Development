@@ -1,7 +1,9 @@
-h1,h2,h3,h4,p,li{
+body{
     font-family: 'calibri';
     color: #444;
+    border-top: 80px solid #1098ad;
 }
+
 
 
 h1,h2,h3{
@@ -86,4 +88,8 @@ a:hover{
 
 a:active{
     color: orange;
+}
+
+#laura{
+    background-color: rgba(0, 221, 255,0.4);
 }
