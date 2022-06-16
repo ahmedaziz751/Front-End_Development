@@ -1,7 +1,12 @@
 h1,h2,h3,h4,p,li{
     font-family: 'calibri';
+    color: #444;
 }
 
+
+h1,h2,h3{
+    color: #1098ad;
+}
 
 h1 {
     font-size: 26px;
@@ -14,6 +19,7 @@ h2{
 
 h3{
     font-size: 30px;
+
 }
 
 h4{
@@ -32,10 +38,52 @@ li{
     font-size: 20px;
 }
  
-footer p{
+#copyright{
     font-size: 16px;
 }
 
-article header p{
+#author{
     font-style: italic;
+    font-size: 18px;
+}
+
+.related-author{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related-list{
+    list-style: none;
+    
+}
+
+
+.header-class{
+    background-color: #f7f7f7;
+}
+
+aside{
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+}
+
+li:nth-child(1){
+    font-weight: bold;
+}
+
+
+a:any-link {
+    color:#1098ad;
+    text-decoration: none;
+}
+
+a:hover{
+    color: orangered;
+    font-size: larger;
+    font-weight: bold;
+}
+
+a:active{
+    color: orange;
 }
