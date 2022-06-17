@@ -11,6 +11,7 @@ body{
     border: 5px solid #000;
     width: 825px;
     margin: 50px auto;
+    position: relative;
 }
 
 h2{
@@ -63,6 +64,8 @@ p{
 .infos{
     color: #000;
     text-decoration: underline;
+    display: inline-block;
+    margin-bottom: 15px;
 }
 
 .infos:hover{
@@ -75,3 +78,57 @@ p{
     margin:0px 0px 10px 50px;
     list-style:square;
 }
+
+.color{
+    background-color:#000;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.color:hover{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.color-black{
+    background-color: #000;
+}
+
+.color-blue{
+    background-color: rgb(0, 89, 255);
+}
+
+.color-red{
+    background-color: #f00;
+}
+
+.color-yellow{
+    background-color: rgb(235, 235, 3);
+}
+
+.color-green{
+    background-color: #0f0;
+}
+
+.color-brown{
+    background-color: rgb(133, 60, 1);
+}
+
+.sale-p{
+    background-color: red;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    padding: 7px 15px;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 3px;
+    position: absolute;
+    top: -17px;
+    left: -34px;
+}
+
