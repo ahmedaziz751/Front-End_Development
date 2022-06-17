@@ -1,9 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
 body{
     font-family: 'calibri';
     color: #444;
-    border-top: 80px solid #1098ad;
+    border-top: 10px solid #1098ad;
 }
 
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+nav{
+    font-size: 18px;
+}
+
+article{
+    margin-bottom: 60px;
+}
+
+aside{
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+    padding: 50px 0;
+    margin-top: 10px;
+    width: 500px;
+}
+
+.main-header{
+    background-color: #f7f7f7;
+    padding: 20px 40px;
+    margin-bottom: 60px;
+
+    height: 80px;
+}
+
+.post-header{
+    margin-bottom: 40px;
+}
 
 
 h1,h2,h3{
@@ -17,11 +55,12 @@ h1 {
 
 h2{
     font-size: 40px;
+    margin-bottom: 30px;
 }
 
 h3{
     font-size: 30px;
-
+    margin: 40px 0 20px 0;
 }
 
 h4{
@@ -34,11 +73,20 @@ h4{
 p{
     font-size: 22px;
     line-height: 1.5;
+    margin-bottom: 15px;
 }
 
 li{
     font-size: 20px;
+    margin-bottom: 10px;
 }
+
+ul,ol{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+
  
 #copyright{
     font-size: 16px;
@@ -60,20 +108,18 @@ li{
 }
 
 
-.header-class{
-    background-color: #f7f7f7;
-}
 
-aside{
-    background-color: #f7f7f7;
-    border-top: 5px solid #1098ad;
-    border-bottom: 5px solid #1098ad;
-}
+
 
 li:nth-child(1){
     font-weight: bold;
+    
 }
 
+li:last-child{
+    margin: 0px;
+    
+}
 
 a:any-link {
     color:#1098ad;
@@ -93,3 +139,9 @@ a:active{
 #laura{
     background-color: rgba(0, 221, 255,0.4);
 }
+
+.post-img{
+    width: 100%;
+    height: auto;
+}
+
