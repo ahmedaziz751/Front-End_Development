@@ -202,6 +202,9 @@ h2::before {
   right: -25px;
 }
 
+aside h4{
+  margin-bottom: 30px;
+}
 
 /* Flexes */
 
@@ -249,18 +252,16 @@ h2::before {
   margin-bottom:0px ;
 }
 
-/*
 .container-content{
   display: flex;
-  gap: 50px;
-}
- 
-.container-content aside{
-  align-self: right;
-  justify-content: space-between;
-  
+  gap: 75px;
+  align-items: flex-start;
 }
 
-h1{
+aside{
+  flex: 0 0 300px;
+}
+
+article{
   flex: 1;
-}  */
+}
